@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CDPC Puchong — Welcome home</title>
+  <meta name="description" content="CDPC Puchong is a church made up of diverse followers of Jesus, gathering for Christ-centred worship, Scripture-based preaching and grace-enabled community. Sundays at 9:00 AM in Puchong, Selangor.">
+  <meta name="theme-color" content="#171411">
+  <meta property="og:title" content="CDPC Puchong — Welcome home">
+  <meta property="og:description" content="A church for the weary, the seeking and the found. Gather with us every Sunday at 9:00 AM.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-sanctuary.webp">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/bodoni-moda-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/images/hero-sanctuary.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+  <noscript><style>.cursor,.sound-toggle,.menu-btn{display:none!important}[data-reveal]{opacity:1!important;transform:none!important}.belief__panel{grid-template-rows:1fr!important;opacity:1!important}.belief__icon{display:none!important}.verse__glow{display:none!important}.verse__reveal{-webkit-mask-image:none!important;mask-image:none!important;opacity:.45!important}.verse__hint{display:none!important}</style></noscript>
+</head>
+<body class="is-ready">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <svg class="svg-defs" aria-hidden="true" focusable="false">
+    <symbol id="fish-mark" viewBox="0 0 640 229">
+      <path d="M234.6,223.8c-49.4,0-92.9-6.2-124.9-12.6c-53-10.7-86.3-24.3-87.7-24.8l-19.1-7.8l13.4-15.7c42.1-49.6,92.8-78.2,127.9-93.5c36.9-16.1,64.6-21.2,67.3-21.6C273,36,332.8,33.6,389.4,40.5c42.8,5.2,83.8,15.8,122,31.4c10.4-16.3,19.4-34.4,27.1-54.5l5.4-14l28,10.7l-5.4,14c-7.8,20.3-17,39-27.6,56.1c55.8,27.4,84.6,56.7,86,58l10.5,10.7l-21.5,20.9l-10.4-10.7c-10.2-10.4-39.3-33.7-81.9-54.1c-46.4,59.4-114.2,95.2-205.1,108.8C288.1,222.1,260.5,223.8,234.6,223.8z M54.1,165.9c14.5,4.6,35.9,10.8,62.3,16.1c46.3,9.3,117.8,17.9,195.7,6.3c63.4-9.5,115.1-31,153.7-63.9c9.9-8.4,19-17.6,27.3-27.6C458.9,83.5,422.6,74.5,384.7,70C331.4,63.6,275,66,217,77.1l-0.3,0.1c-0.2,0-26.4,4.7-61.4,20C127.4,109.4,88.8,130.8,54.1,165.9z"/>
+    </symbol>
+    <symbol id="arrow-ne" viewBox="0 0 24 24">
+      <path d="M5 19 19 5M8 5h11v11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="page-progress" aria-hidden="true"><span class="page-progress__bar"></span></div>
+
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"></span>
+  </div>
+
+  <div class="site" id="site">
+    <header class="header" id="header">
+      <a class="brand" href="#home" aria-label="CDPC Puchong home">
+        <svg class="brand__mark" aria-hidden="true"><use href="#fish-mark"></use></svg>
+        <span class="brand__name">CDPC <span>Puchong</span></span>
+      </a>
+
+      <div class="header__right">
+        <nav class="header__nav" aria-label="Primary">
+          <a class="header__link" href="#visit">Sunday</a>
+          <a class="header__link" href="#word">Sermons</a>
+          <a class="header__link" href="#who">Our story</a>
+        </nav>
+
+        <button class="sound-toggle" type="button" aria-pressed="false" aria-label="Turn background music on">
+          <span class="sound-toggle__bars" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </span>
+          <span class="sound-toggle__label">Music off</span>
+        </button>
+
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="sr-only">Open menu</span>
+          <span class="menu-btn__icon" aria-hidden="true"><span></span><span></span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="menu" id="site-menu" role="dialog" aria-modal="true" aria-label="Site menu" aria-hidden="true" tabindex="-1" inert>
+      <div class="menu__backdrop" aria-hidden="true"></div>
+      <div class="menu__inner">
+        <div class="menu__head">
+          <p class="eyebrow eyebrow--light">CDPC Puchong — Index</p>
+          <p class="eyebrow eyebrow--light">Est. in grace · Puchong</p>
+        </div>
+
+        <div class="menu__body">
+          <nav class="menu__nav" aria-label="Site sections">
+            <a class="menu__link" href="#who">
+              <span class="menu__num">01</span>
+              <span class="menu__label">Who we are</span>
+              <span class="menu__hover" aria-hidden="true">Who we are</span>
+            </a>
+            <a class="menu__link" href="#what">
+              <span class="menu__num">02</span>
+              <span class="menu__label">What we believe</span>
+              <span class="menu__hover" aria-hidden="true">What we believe</span>
+            </a>
+            <a class="menu__link" href="#visit">
+              <span class="menu__num">03</span>
+              <span class="menu__label">Gather with us</span>
+              <span class="menu__hover" aria-hidden="true">Gather with us</span>
+            </a>
+            <a class="menu__link" href="#word">
+              <span class="menu__num">04</span>
+              <span class="menu__label">The Word</span>
+              <span class="menu__hover" aria-hidden="true">The Word</span>
+            </a>
+            <a class="menu__link" href="#community">
+              <span class="menu__num">05</span>
+              <span class="menu__label">Our life together</span>
+              <span class="menu__hover" aria-hidden="true">Our life together</span>
+            </a>
+            <a class="menu__link" href="#library">
+              <span class="menu__num">06</span>
+              <span class="menu__label">Children’s Library</span>
+              <span class="menu__hover" aria-hidden="true">Children’s Library</span>
+            </a>
+          </nav>
+
+          <aside class="menu__aside" aria-label="Visit details">
+            <div class="menu__aside-block">
+              <p class="eyebrow eyebrow--light">Sunday worship</p>
+              <p class="menu__time">9:00 AM</p>
+              <address>7th Floor, IOI Boulevard,<br>Jalan Kenari 5, Bandar Puchong Jaya,<br>47170 Puchong, Selangor</address>
+            </div>
+            <div class="menu__aside-block">
+              <p class="eyebrow eyebrow--light">Say hello</p>
+              <a class="menu__contact" href="https://wa.me/60189292150" target="_blank" rel="noopener noreferrer">WhatsApp +60 18-929 2150</a>
+              <a class="menu__contact" href="https://puchong.cdpc.my/" target="_blank" rel="noopener noreferrer">puchong.cdpc.my</a>
+            </div>
+            <blockquote class="menu__verse">“Come to me, all who labour and are heavy laden, and I will give you rest.”<cite>Matthew 11:28</cite></blockquote>
+          </aside>
+        </div>
+
+        <div class="menu__foot">
+          <span>© <span data-year>2026</span> City Discipleship Presbyterian Church</span>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" hidden>Instagram</a>
+          <a href="https://creators.spotify.com/pod/profile/cdpc-puchong/" target="_blank" rel="noopener noreferrer">Listen on Spotify</a>
+          <button class="menu__top" type="button" data-to-top>Back to top</button>
+        </div>
+      </div>
+    </div>
+
+    <main id="main" tabindex="-1">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__content">
+          <div class="hero__topline" data-hero="1">
+            <p class="eyebrow">City Discipleship Presbyterian Church</p>
+            <p class="eyebrow hero__place">Puchong · Selangor</p>
+          </div>
+
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__title-line hero__title-line--sans"><span data-hero-line="1">Welcome</span></span>
+            <span class="hero__title-line hero__title-line--serif"><span data-hero-line="2"><em>home.</em></span></span>
+          </h1>
+
+          <div class="hero__lower">
+            <p class="hero__lede" data-hero="2">A church for the weary, the seeking and the found. A family of grace, rooted in the Word, here in the heart of Puchong.</p>
+            <div class="hero__actions" data-hero="3">
+              <a class="button button--ink" href="#visit">
+                <span>Plan a visit</span>
+                <svg aria-hidden="true"><use href="#arrow-ne"></use></svg>
+              </a>
+              <a class="text-link" href="#word">Listen to a sermon <span aria-hidden="true">↘</span></a>
+            </div>
+          </div>
+
+          <div class="hero__details" data-hero="4">
+            <div class="hero__detail">
+              <span class="eyebrow">When</span>
+              <strong>Every Sunday · 9:00 AM</strong>
+            </div>
+            <div class="hero__detail">
+              <span class="eyebrow">Where</span>
+              <strong>IOI Boulevard, Puchong</strong>
+            </div>
+            <a class="hero__scroll" href="#who" aria-label="Scroll to who we are">
+              <span>Scroll to explore</span>
+              <span class="hero__scroll-line" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero__media">
+          <div class="hero__image-wrap">
+            <img class="hero__image js-parallax" data-speed="-0.045" src="assets/images/hero-sanctuary.webp" width="900" height="1601" alt="A shaft of sunlight falls across a quiet sanctuary and its empty pews." fetchpriority="high">
+          </div>
+          <div class="hero__shade" aria-hidden="true"></div>
+          <div class="hero__glow" aria-hidden="true"></div>
+          <canvas class="hero__dust" aria-hidden="true"></canvas>
+
+          <figcaption class="hero__caption">
+            <span class="eyebrow eyebrow--light">A place to pause</span>
+            <span class="hero__caption-line" aria-hidden="true"></span>
+            <span class="hero__caption-num">01 / 06</span>
+          </figcaption>
+
+          <a class="hero__service" href="https://www.google.com/maps/search/?api=1&amp;query=IOI%20Boulevard%2C%20Jalan%20Kenari%205%2C%20Bandar%20Puchong%20Jaya%2C%2047170%20Puchong%2C%20Selangor" target="_blank" rel="noopener noreferrer" aria-label="Sunday service is on at 9:00 AM. Open IOI Boulevard, Puchong in Google Maps.">
+            <span class="hero__service-top">
+              <span class="hero__service-live"><span class="hero__service-dot" aria-hidden="true"></span>Sunday service is on</span>
+              <span class="hero__service-directions">Directions <svg aria-hidden="true"><use href="#arrow-ne"></use></svg></span>
+            </span>
+            <span class="hero__service-main">
+              <strong>9:00 <em>AM</em></strong>
+              <span class="hero__service-place">IOI Boulevard<br><small>Puchong, Selangor</small></span>
+            </span>
+          </a>
+
+          <span class="hero__vertical" aria-hidden="true">Come as you are · Leave changed</span>
+        </figure>
+      </section>
+
+      <section class="welcome-band" aria-labelledby="welcome-band-title">
+        <p class="eyebrow welcome-band__eyebrow">You are welcome here</p>
+        <h2 class="welcome-band__line" id="welcome-band-title">A church family following Jesus <em>in the heart of Puchong.</em></h2>
+        <a class="text-link welcome-band__link" href="#who">Meet the family <span aria-hidden="true">&#8599;</span></a>
+      </section>
+
+      <section class="section who" id="who" aria-labelledby="who-title">
+        <div class="section-meta">
+          <span>01 / Who we are</span>
+          <span>Diverse by design</span>
+          <span>Puchong, Malaysia</span>
+        </div>
+
+        <div class="who__intro">
+          <div>
+            <p class="eyebrow" data-reveal>Our story</p>
+            <h2 class="display" id="who-title" data-reveal="lines">
+              <span class="line"><span>A diverse people,</span></span>
+              <span class="line line--serif"><span><em>one living hope.</em></span></span>
+            </h2>
+          </div>
+          <div class="who__copy" data-reveal>
+            <p class="lead">CDPC Puchong is a church made up of diverse followers of Jesus who gather together for Christ-centred worship, Scripture-based expository preaching and grace-enabled spirituality.</p>
+            <p>We are a daughter church of City Discipleship Presbyterian Church and a member of Gereja Presbyterian Malaysia. With Christian communities worldwide, we pray that our lives will be caught up in God’s redemptive story — in Puchong and beyond.</p>
+            <a class="text-link" href="https://puchong.cdpc.my/index.php/who-we-are" target="_blank" rel="noopener noreferrer">Read more about us <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="who__visuals">
+          <figure class="media media--portrait" data-reveal>
+            <div class="media__image">
+              <img src="assets/images/who-arches.webp" width="1000" height="1498" loading="lazy" alt="Warm light travelling through the stone arches of a cathedral nave.">
+            </div>
+            <figcaption>
+              <span>A quiet place to pause</span>
+              <span>Puchong · Malaysia</span>
+            </figcaption>
+          </figure>
+
+          <div class="who__interlude">
+            <p class="who__interlude-label eyebrow" data-reveal>Our foundation</p>
+            <blockquote class="pullquote" data-reveal>
+              <span aria-hidden="true">“</span>
+              For no one can lay a foundation other than that which is laid, which is Jesus Christ.
+            </blockquote>
+            <p class="who__reference" data-reveal>1 Corinthians 3:11</p>
+            <div class="who__affiliations" data-reveal>
+              <div>
+                <span class="eyebrow">Part of a family</span>
+                <p>City Discipleship Presbyterian Church</p>
+              </div>
+              <div>
+                <span class="eyebrow">Accountable to</span>
+                <p>Gereja Presbyterian Malaysia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dna">
+          <div class="dna__head">
+            <p class="eyebrow" data-reveal>Our DNA</p>
+            <p class="dna__intro" data-reveal>Three currents run through everything we do.</p>
+          </div>
+          <div class="dna__grid">
+            <article class="dna__item" data-reveal>
+              <span class="dna__number">01</span>
+              <div>
+                <h3>Centred on Christ</h3>
+                <p>We proclaim that Jesus Christ is the King of the universe and the Saviour of humankind.</p>
+              </div>
+              <span class="dna__glyph" aria-hidden="true">✦</span>
+            </article>
+            <article class="dna__item" data-reveal>
+              <span class="dna__number">02</span>
+              <div>
+                <h3>Centred on grace</h3>
+                <p>The way to eternal life does not depend on human effort, but on the generous grace of God.</p>
+              </div>
+              <span class="dna__glyph" aria-hidden="true">✦</span>
+            </article>
+            <article class="dna__item" data-reveal>
+              <span class="dna__number">03</span>
+              <div>
+                <h3>Centred on the Word</h3>
+                <p>God speaks to us through the Bible and, by His Spirit, transforms our lives.</p>
+              </div>
+              <span class="dna__glyph" aria-hidden="true">✦</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="verse" aria-labelledby="verse-title">
+        <div class="verse__media" aria-hidden="true">
+          <img class="verse__base" src="assets/images/verse-window-1600.webp" width="1600" height="2133" loading="lazy" alt="">
+          <img class="verse__reveal" src="assets/images/verse-window-1600.webp" width="1600" height="2133" loading="lazy" alt="">
+          <div class="verse__wash"></div>
+          <div class="verse__glow"></div>
+        </div>
+        <div class="verse__content">
+          <p class="eyebrow eyebrow--light">The light of the world</p>
+          <blockquote id="verse-title">“The light shines in the darkness, and the darkness has not overcome it.”</blockquote>
+          <div class="verse__footer">
+            <p class="verse__reference">John 1:5</p>
+            <p class="verse__hint" aria-hidden="true"><span></span> The light follows you</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit" id="visit" aria-labelledby="visit-title">
+        <svg class="rose-window rose-window--visit" viewBox="0 0 600 600" aria-hidden="true">
+          <circle cx="300" cy="300" r="282"/>
+          <circle cx="300" cy="300" r="234"/>
+          <circle cx="300" cy="300" r="64"/>
+          <path d="M300 18v172M300 410v172M18 300h172M410 300h172M100 100l121 121M379 379l121 121M500 100L379 221M221 379L100 500"/>
+          <path d="M300 66c90 56 144 134 144 234s-54 178-144 234c-90-56-144-134-144-234S210 122 300 66Z"/>
+          <path d="M66 300c56-90 134-144 234-144s178 54 234 144c-56 90-134 144-234 144S122 390 66 300Z"/>
+        </svg>
+
+        <div class="section-meta section-meta--light">
+          <span>02 / Gather with us</span>
+          <span>Every Sunday</span>
+          <span>All are welcome</span>
+        </div>
+
+        <div class="visit__top">
+          <div>
+            <p class="eyebrow eyebrow--light" data-reveal>Worship service</p>
+            <h2 class="display display--light" id="visit-title" data-reveal="lines">
+              <span class="line"><span>Every Sunday.</span></span>
+              <span class="line line--serif"><span><em>Every season.</em></span></span>
+            </h2>
+          </div>
+          <p class="visit__lede" data-reveal>We gather to worship God through songs and prayer, to listen to words of hope from His Word, and to belong to one another. Come as you are. There is a place for you here.</p>
+        </div>
+
+        <div class="visit__grid">
+          <div class="visit__time" data-reveal>
+            <span class="eyebrow eyebrow--light">The gathering</span>
+            <p class="visit__clock"><span>9</span><span class="visit__colon">:</span><span>00</span><span class="visit__am">AM</span></p>
+            <p class="visit__next">Next gathering · <span data-next-service>Sunday, 25 October</span></p>
+          </div>
+
+          <div class="visit__card" data-reveal>
+            <span class="eyebrow eyebrow--light">Find us</span>
+            <address>
+              7th Floor, IOI Boulevard,<br>
+              Unit B, 01, Jalan Kenari 5,<br>
+              Bandar Puchong Jaya,<br>
+              47170 Puchong, Selangor
+            </address>
+            <a class="text-link text-link--light" href="https://www.google.com/maps/search/?api=1&amp;query=IOI+Boulevard+Jalan+Kenari+5+Bandar+Puchong+Jaya+47170+Puchong+Selangor" target="_blank" rel="noopener noreferrer">Open in Maps <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="visit__card visit__card--soft" data-reveal>
+            <span class="eyebrow eyebrow--light">After the service</span>
+            <p>Stay for fellowship, meet a new face, and share a meal. Our life together is intergenerational — and there is always plenty of makan.</p>
+            <a class="text-link text-link--light" href="https://wa.me/60189292150" target="_blank" rel="noopener noreferrer">WhatsApp us <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="visit__actions" data-reveal>
+          <a class="button button--cream" href="https://wa.me/60189292150?text=Hi%20CDPC%20Puchong%2C%20I%27d%20love%20to%20visit%20this%20Sunday." target="_blank" rel="noopener noreferrer">
+            <span>Plan your visit</span>
+            <svg aria-hidden="true"><use href="#arrow-ne"></use></svg>
+          </a>
+          <span class="visit__welcome">No perfect people required.</span>
+        </div>
+      </section>
+
+      <section class="word" id="word" aria-labelledby="word-title">
+        <div class="section-meta section-meta--light">
+          <span>03 / The Word</span>
+          <span>Scripture-based teaching</span>
+          <span>New every week</span>
+        </div>
+
+        <div class="word__head">
+          <p class="eyebrow eyebrow--light" data-reveal>Listen for the living Word</p>
+          <div class="word__heading-row">
+            <h2 class="display display--light" id="word-title" data-reveal="lines">
+              <span class="line"><span>Rooted in</span></span>
+              <span class="line line--serif"><span><em>the Word.</em></span></span>
+            </h2>
+            <p class="word__lede" data-reveal>We seek to centre ourselves on Jesus Christ, the gospel of grace and the Living Word. Every week, Scripture is opened for the life of the church.</p>
+          </div>
+        </div>
+
+        <div class="sermon-feature">
+          <div class="sermon-feature__media" data-reveal>
+            <img src="assets/images/sanctuary-altar.webp" width="1400" height="2100" loading="lazy" alt="A quiet church interior with a cross and soft light near the altar.">
+            <span class="sermon-feature__stamp">Latest</span>
+            <span class="sermon-feature__quote">“Your word is a lamp to my feet and a light to my path.”<cite>Psalm 119:105</cite></span>
+          </div>
+
+          <div class="sermon-feature__content" data-reveal>
+            <p class="eyebrow eyebrow--light">Latest sermon · 11 October 2026</p>
+            <h3><a href="https://creators.spotify.com/pod/profile/cdpc-puchong/episodes/With-Christ-in-the-Storm-e3qfral/a-acuv3d5" target="_blank" rel="noopener noreferrer">With Christ in the Storm</a></h3>
+            <p class="sermon-feature__meta">Acts 27:13–38 · Adriaan Neele</p>
+            <p class="sermon-feature__blurb">Where do you turn when the storm will not quiet? A word of hope for the middle of the night.</p>
+            <a class="listen-link" href="https://creators.spotify.com/pod/profile/cdpc-puchong/episodes/With-Christ-in-the-Storm-e3qfral/a-acuv3d5" target="_blank" rel="noopener noreferrer">
+              <span class="listen-link__icon" aria-hidden="true"><span></span></span>
+              Listen on Spotify
+              <svg aria-hidden="true"><use href="#arrow-ne"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="sermon-list" aria-label="Recent sermons">
+          <a class="sermon-row" href="https://creators.spotify.com/pod/profile/cdpc-puchong/episodes/All-of-Life-for-God-Building-Up-the-Church-e3pvl62/a-acuab39" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="sermon-row__date">04 Oct 2026</span>
+            <span class="sermon-row__title">All of Life for God: Building Up the Church</span>
+            <span class="sermon-row__meta">1 Corinthians 14:1–12 · Josh Ng</span>
+            <span class="sermon-row__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="sermon-row" href="https://creators.spotify.com/pod/profile/cdpc-puchong/episodes/All-of-Life-for-God-Love-Never-Ends-e3pofho/a-acu1bdn" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="sermon-row__date">27 Sep 2026</span>
+            <span class="sermon-row__title">All of Life for God: Love Never Ends</span>
+            <span class="sermon-row__meta">1 Corinthians 13:8–13 · Josh Ng</span>
+            <span class="sermon-row__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="sermon-row" href="https://creators.spotify.com/pod/profile/cdpc-puchong/episodes/The-Exalted-Savior-from-Sin-e3pdtv5/a-actjgo4" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="sermon-row__date">20 Sep 2026</span>
+            <span class="sermon-row__title">The Exalted Savior from Sin</span>
+            <span class="sermon-row__meta">Acts 5:31 · David Kranendonk</span>
+            <span class="sermon-row__arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="word__foot" data-reveal>
+          <p>Sermons are recorded weekly. Listen wherever you are.</p>
+          <a class="text-link text-link--light" href="https://puchong.cdpc.my/index.php/sermon" target="_blank" rel="noopener noreferrer">Browse every sermon <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="beliefs" id="what" aria-labelledby="beliefs-title">
+        <div class="beliefs__sticky">
+          <div class="section-meta">
+            <span>04 / What we believe</span>
+            <span>The story of everything</span>
+          </div>
+
+          <div class="beliefs__intro">
+            <p class="eyebrow" data-reveal>Our confession</p>
+            <h2 class="display" id="beliefs-title" data-reveal="lines">
+              <span class="line"><span>Created for good.</span></span>
+              <span class="line"><span>Broken by evil.</span></span>
+              <span class="line line--serif"><span><em>Rescued by grace.</em></span></span>
+            </h2>
+            <p class="beliefs__lede" data-reveal>We believe the Bible tells one true story — from creation to new creation — and that we are invited into it.</p>
+          </div>
+
+          <div class="beliefs__symbol" data-reveal aria-hidden="true">
+            <svg viewBox="0 0 420 420">
+              <circle cx="210" cy="210" r="200"/>
+              <circle cx="210" cy="210" r="158"/>
+              <circle cx="210" cy="210" r="54"/>
+              <path d="M210 10v138M210 272v138M10 210h138M272 210h138"/>
+              <path d="M90 90l82 82M330 330l-82-82M330 90l-82 82M90 330l82-82"/>
+              <path d="M210 52c78 44 122 92 122 158s-44 114-122 158c-78-44-122-92-122-158S132 96 210 52Z"/>
+              <path d="M52 210c44-78 92-122 158-122s114 44 158 122c-44 78-92 122-158 122S96 288 52 210Z"/>
+            </svg>
+          </div>
+
+          <div class="beliefs__note" data-reveal>
+            <span class="eyebrow">Rooted &amp; reformed</span>
+            <p>Our beliefs are determined by the Bible and summarised in the Apostles’ Creed, the Nicene Creed and the Westminster Standards.</p>
+            <a class="text-link" href="https://puchong.cdpc.my/index.php/what-we-believe" target="_blank" rel="noopener noreferrer">Read our full beliefs <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="beliefs__list" data-reveal>
+          <article class="belief is-open">
+            <h3 class="belief__heading">
+              <button class="belief__trigger" type="button" aria-expanded="true" aria-controls="belief-creation" id="belief-btn-creation">
+                <span class="belief__numeral">I</span>
+                <span class="belief__title">Creation</span>
+                <span class="belief__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="belief__panel" id="belief-creation" role="region" aria-labelledby="belief-btn-creation" aria-hidden="false">
+              <div class="belief__panel-inner">
+                <p>In the beginning, God made the universe and all its living creatures. He created humankind in His own likeness as the crowning jewel of creation — to represent Him on earth, and to worship and enjoy Him forever.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="belief">
+            <h3 class="belief__heading">
+              <button class="belief__trigger" type="button" aria-expanded="false" aria-controls="belief-fall" id="belief-btn-fall">
+                <span class="belief__numeral">II</span>
+                <span class="belief__title">Fall</span>
+                <span class="belief__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="belief__panel" id="belief-fall" role="region" aria-labelledby="belief-btn-fall" aria-hidden="true" inert>
+              <div class="belief__panel-inner">
+                <p>Human beings chose to disobey God. We broke our relationship with God, with one another and with the rest of creation. Suffering and death entered the world, and the human race began worshipping things that are not God, becoming enslaved to all kinds of evil.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="belief">
+            <h3 class="belief__heading">
+              <button class="belief__trigger" type="button" aria-expanded="false" aria-controls="belief-redemption" id="belief-btn-redemption">
+                <span class="belief__numeral">III</span>
+                <span class="belief__title">Redemption</span>
+                <span class="belief__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="belief__panel" id="belief-redemption" role="region" aria-labelledby="belief-btn-redemption" aria-hidden="true" inert>
+              <div class="belief__panel-inner">
+                <p>God did not abandon the world to destruction. In His love, He sent His only begotten Son, Jesus, to die as a sacrifice for sin and to be raised to life on the third day — so that those who believe in Him would not perish but share in everlasting life.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="belief">
+            <h3 class="belief__heading">
+              <button class="belief__trigger" type="button" aria-expanded="false" aria-controls="belief-renewal" id="belief-btn-renewal">
+                <span class="belief__numeral">IV</span>
+                <span class="belief__title">Renewal</span>
+                <span class="belief__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="belief__panel" id="belief-renewal" role="region" aria-labelledby="belief-btn-renewal" aria-hidden="true" inert>
+              <div class="belief__panel-inner">
+                <p>The death and resurrection of Jesus usher in a new creation. By the Holy Spirit, hearts and lives are transformed. God gathers us into a community to worship Him and to spread the good news of Christ through our words and our actions. We are not only recipients of renewal — we are agents of it.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="belief">
+            <h3 class="belief__heading">
+              <button class="belief__trigger" type="button" aria-expanded="false" aria-controls="belief-consummation" id="belief-btn-consummation">
+                <span class="belief__numeral">V</span>
+                <span class="belief__title">Consummation</span>
+                <span class="belief__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="belief__panel" id="belief-consummation" role="region" aria-labelledby="belief-btn-consummation" aria-hidden="true" inert>
+              <div class="belief__panel-inner">
+                <p>One day, Jesus will return as King and Judge of the universe and will bring the renewal of our world to perfection. Those who have trusted in Him will enjoy eternal life and fellowship with Him forever.</p>
+              </div>
+            </div>
+          </article>
+
+          <div class="beliefs__creed" data-reveal>
+            <span class="eyebrow">The Apostles’ Creed</span>
+            <p>“I believe in God the Father Almighty, Maker of heaven and earth.”</p>
+            <a class="text-link" href="https://puchong.cdpc.my/index.php/what-we-believe" target="_blank" rel="noopener noreferrer">Read the creed in full <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="community" id="community" aria-labelledby="community-title">
+        <div class="section-meta">
+          <span>05 / Our life together</span>
+          <span>Every generation</span>
+          <span>A table, not a stage</span>
+        </div>
+
+        <div class="community__head">
+          <div>
+            <p class="eyebrow" data-reveal>Worship · Learn · Heal</p>
+            <h2 class="display" id="community-title" data-reveal="lines">
+              <span class="line"><span>We belong</span></span>
+              <span class="line line--serif"><span><em>to one another.</em></span></span>
+            </h2>
+          </div>
+          <p class="community__lede" data-reveal>An international mix of cultures, generations and mother tongues. We seek to celebrate our diversity while finding our common ground in Christ.</p>
+        </div>
+
+        <div class="community__gallery">
+          <figure class="community-photo community-photo--wide" data-reveal>
+            <img src="assets/images/community-gathering.webp" width="2048" height="800" loading="lazy" alt="Members of CDPC Puchong gathered together in rows during a church meeting.">
+            <figcaption>
+              <span>Our gathering</span>
+              <span>Sunday, 9:00 AM</span>
+            </figcaption>
+          </figure>
+          <figure class="community-photo community-photo--hands" data-reveal>
+            <img src="assets/images/community-hands.webp" width="900" height="600" loading="lazy" alt="Hands lifted in worship in a softly lit gathering.">
+            <figcaption>
+              <span>Worship together</span>
+              <span>Every Sunday</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="community__values">
+          <article data-reveal>
+            <span class="community__value-num">01</span>
+            <h3>We worship together.</h3>
+            <p>Our life is shaped by the gospel story and our shared life in Jesus Christ. We sing, pray and listen as one body.</p>
+          </article>
+          <article data-reveal>
+            <span class="community__value-num">02</span>
+            <h3>We learn together.</h3>
+            <p>An intergenerational mix of teaching, small-group discussion, fellowship, and plenty of makan fills our life together.</p>
+          </article>
+          <article data-reveal>
+            <span class="community__value-num">03</span>
+            <h3>We find healing together.</h3>
+            <p>We are broken people who have found hope in Jesus. We remind one another of God’s grace for every season of life.</p>
+          </article>
+        </div>
+
+        <div class="library" id="library">
+          <div class="library__media" data-reveal>
+            <img src="assets/images/library.webp" width="2048" height="800" loading="lazy" alt="Children listening to a story during the Children’s Library story time.">
+            <span class="library__stamp">Children’s Library</span>
+          </div>
+          <div class="library__content" data-reveal>
+            <p class="eyebrow">For toddlers to adults</p>
+            <h2 class="display display--small">A library of <span class="serif-italic">wonder.</span></h2>
+            <p>Welcome to a community library with more than 4,000 carefully chosen English books, many of them award-winning. Come read, play, and grow to love God and people.</p>
+            <dl class="library__hours">
+              <div>
+                <dt>Every Saturday</dt>
+                <dd>10:00 AM – 2:00 PM</dd>
+              </div>
+              <div>
+                <dt>Story time</dt>
+                <dd>10:30 AM</dd>
+              </div>
+            </dl>
+            <div class="library__links">
+              <a class="button button--ink" href="http://www.childrenslibrary.my/" target="_blank" rel="noopener noreferrer">
+                <span>Discover the library</span>
+                <svg aria-hidden="true"><use href="#arrow-ne"></use></svg>
+              </a>
+              <a class="text-link" href="https://www.facebook.com/Childrenlibrary/" target="_blank" rel="noopener noreferrer">Facebook <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="leaders">
+          <div class="leaders__head">
+            <p class="eyebrow" data-reveal>Servant leadership</p>
+            <h2 class="display display--small" data-reveal="lines">
+              <span class="line"><span>Shepherded</span></span>
+              <span class="line line--serif"><span><em>with care.</em></span></span>
+            </h2>
+            <a class="text-link" href="https://puchong.cdpc.my/index.php/who/leadership" target="_blank" rel="noopener noreferrer">Meet our leaders <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="leaders__grid" data-reveal>
+            <div class="leaders__group">
+              <span class="eyebrow">Pastor</span>
+              <p>Josh Ng</p>
+            </div>
+            <div class="leaders__group">
+              <span class="eyebrow">Elders</span>
+              <p>Lee Han Meng<br>Victor Selvarajah<br>Rodney Toh<br>Joseph Tan</p>
+            </div>
+            <div class="leaders__group">
+              <span class="eyebrow">Deacons</span>
+              <p>Andrew Goh, Lee Yew Kong,<br>Lee Chun Chung, Hon Sir Neng,<br>Ivan Se Hoo, Enoch Chew,<br>Isaac Khoo, Cassandra Chung</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer__glow" aria-hidden="true"></div>
+      <div class="footer__top">
+        <p class="eyebrow eyebrow--light" data-reveal>There is room for you</p>
+        <h2 class="footer__title" data-reveal="lines">
+          <span class="line"><span>Come and</span></span>
+          <span class="line line--serif"><span><em>see.</em></span></span>
+        </h2>
+        <div class="footer__cta-row" data-reveal>
+          <a class="button button--cream" href="https://wa.me/60189292150?text=Hi%20CDPC%20Puchong%2C%20I%27d%20love%20to%20visit%20this%20Sunday." target="_blank" rel="noopener noreferrer">
+            <span>Plan your first visit</span>
+            <svg aria-hidden="true"><use href="#arrow-ne"></use></svg>
+          </a>
+          <p>Sunday worship · 9:00 AM<br>Every week, without fail.</p>
+        </div>
+      </div>
+
+      <div class="footer__grid">
+        <div class="footer__about">
+          <a class="brand brand--footer" href="#home" aria-label="Back to top">
+            <svg class="brand__mark" aria-hidden="true"><use href="#fish-mark"></use></svg>
+            <span class="brand__name">CDPC <span>Puchong</span></span>
+          </a>
+          <p>A church made up of diverse followers of Jesus, journeying together towards Christ-centred worship, Scripture-based preaching and grace-enabled community.</p>
+          <p class="footer__affiliation">A daughter church of City Discipleship Presbyterian Church<br>and a member of Gereja Presbyterian Malaysia.</p>
+        </div>
+
+        <div class="footer__column">
+          <h3>Gather</h3>
+          <address>
+            7th Floor, IOI Boulevard,<br>
+            Unit B, 01, Jalan Kenari 5,<br>
+            Bandar Puchong Jaya,<br>
+            47170 Puchong, Selangor
+          </address>
+          <a class="text-link text-link--light" href="https://www.google.com/maps/search/?api=1&amp;query=IOI+Boulevard+Jalan+Kenari+5+Bandar+Puchong+Jaya+47170+Puchong+Selangor" target="_blank" rel="noopener noreferrer">Directions <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="footer__column">
+          <h3>Connect</h3>
+          <a href="https://wa.me/60189292150" target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+          <a href="https://puchong.cdpc.my/index.php/sermon" target="_blank" rel="noopener noreferrer">Sermons</a>
+          <a href="http://www.childrenslibrary.my/" target="_blank" rel="noopener noreferrer">Children’s Library</a>
+          <a href="https://puchong.cdpc.my/index.php/who/leadership" target="_blank" rel="noopener noreferrer">Leadership</a>
+        </div>
+
+        <div class="footer__column">
+          <h3>Rooted in</h3>
+          <a href="https://puchong.cdpc.my/" target="_blank" rel="noopener noreferrer">Official church site</a>
+          <a href="http://cdpc.org.my/" target="_blank" rel="noopener noreferrer">City Discipleship Presbyterian</a>
+          <a href="http://www.gpm.org.my/" target="_blank" rel="noopener noreferrer">Gereja Presbyterian Malaysia</a>
+          <a href="https://creators.spotify.com/pod/profile/cdpc-puchong/" target="_blank" rel="noopener noreferrer">Listen on Spotify</a>
+        </div>
+      </div>
+
+      <div class="footer__wordmark" aria-hidden="true">CDPC PUCHONG</div>
+
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> City Discipleship Presbyterian Church</span>
+        <span class="footer__verse">“Come to me, all who labour and are heavy laden, and I will give you rest.” — Matthew 11:28</span>
+        <button class="footer__top" type="button" data-to-top>Back to top <span aria-hidden="true">↑</span></button>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
