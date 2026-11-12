@@ -186,14 +186,24 @@
             <span class="hero__caption-num">01 / 06</span>
           </figcaption>
 
-          <a class="hero__service" href="https://www.google.com/maps/search/?api=1&amp;query=IOI%20Boulevard%2C%20Jalan%20Kenari%205%2C%20Bandar%20Puchong%20Jaya%2C%2047170%20Puchong%2C%20Selangor" target="_blank" rel="noopener noreferrer" aria-label="Sunday service is on at 9:00 AM. Open IOI Boulevard, Puchong in Google Maps.">
-            <span class="hero__service-top">
-              <span class="hero__service-live"><span class="hero__service-dot" aria-hidden="true"></span>Sunday service is on</span>
-              <span class="hero__service-directions">Directions <svg aria-hidden="true"><use href="#arrow-ne"></use></svg></span>
-            </span>
-            <span class="hero__service-main">
-              <strong>9:00 <em>AM</em></strong>
-              <span class="hero__service-place">IOI Boulevard<br><small>Puchong, Selangor</small></span>
+          <a class="hero__service" href="https://www.google.com/maps/search/?api=1&amp;query=IOI%20Boulevard%2C%20Jalan%20Kenari%205%2C%20Bandar%20Puchong%20Jaya%2C%2047170%20Puchong%2C%20Selangor" target="_blank" rel="noopener noreferrer" aria-label="Sunday service is on at 9:00 AM at IOI Boulevard, Puchong. Open directions in Google Maps.">
+            <span class="hero__service-halo" aria-hidden="true"></span>
+            <svg class="hero__service-orbit" viewBox="0 0 220 220" aria-hidden="true" focusable="false">
+              <defs>
+                <path id="hero-service-orbit-path" d="M110 110m-84 0a84 84 0 1 1 168 0a84 84 0 1 1-168 0"/>
+              </defs>
+              <circle class="hero__service-hairline" cx="110" cy="110" r="97"/>
+              <circle class="hero__service-ring" cx="110" cy="110" r="84"/>
+              <text class="hero__service-ringtext">
+                <textPath href="#hero-service-orbit-path" startOffset="0" textLength="527" lengthAdjust="spacing">EVERY SUNDAY · IOI BOULEVARD · PUCHONG ·</textPath>
+              </text>
+            </svg>
+            <span class="hero__service-dot" aria-hidden="true"></span>
+            <span class="hero__service-core">
+              <span class="hero__service-status">Sunday service is on</span>
+              <span class="hero__service-time">9:00 <em>AM</em></span>
+              <span class="hero__service-place">IOI Boulevard<br>Puchong, Selangor</span>
+              <span class="hero__service-cta">Directions <svg aria-hidden="true"><use href="#arrow-ne"></use></svg></span>
             </span>
           </a>
 
@@ -201,10 +211,25 @@
         </figure>
       </section>
 
-      <section class="welcome-band" aria-labelledby="welcome-band-title">
-        <p class="eyebrow welcome-band__eyebrow">You are welcome here</p>
-        <h2 class="welcome-band__line" id="welcome-band-title">A church family following Jesus <em>in the heart of Puchong.</em></h2>
-        <a class="text-link welcome-band__link" href="#who">Meet the family <span aria-hidden="true">&#8599;</span></a>
+      <section class="welcome" aria-labelledby="welcome-title">
+        <div class="welcome__arch" aria-hidden="true"></div>
+        <div class="welcome__inner">
+          <div class="welcome__meta">
+            <p class="eyebrow eyebrow--light">You are welcome here</p>
+            <p class="eyebrow eyebrow--light welcome__meta-place">Puchong · Selangor</p>
+          </div>
+          <div class="welcome__body">
+            <h2 class="welcome__title" id="welcome-title" data-reveal>
+              <span class="welcome__line">A church family</span>
+              <span class="welcome__line welcome__line--accent"><em>following Jesus</em></span>
+              <span class="welcome__line welcome__line--place">in the heart of Puchong.</span>
+            </h2>
+            <div class="welcome__aside" data-reveal>
+              <p class="welcome__note">Come and see what God is doing here.</p>
+              <a class="welcome__link" href="#who">Meet the family <span aria-hidden="true">&#8599;</span></a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="section who" id="who" aria-labelledby="who-title">
